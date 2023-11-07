@@ -1,0 +1,35 @@
+span{
+    color: white;
+    display: inline-block;
+}
+
+body{
+    background: black
+}
+
+.clock{
+    height: 30vh;
+    width: 75vh;
+    background-color: black;
+    margin: 30vh auto 0;
+    border: solid 6px #595959;
+    border-right: solid 20px #595959;;
+    border-top: solid 20px #595959;;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticker{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: baseline;
+    font-size: 10vw;
+    text-align: center;
+}
+
+#segundos{
+    font-size: 3vw;
+}
